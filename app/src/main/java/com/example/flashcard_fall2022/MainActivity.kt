@@ -3,6 +3,7 @@ package com.example.flashcard_fall2022
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
@@ -23,9 +24,6 @@ class MainActivity : AppCompatActivity() {
         flashcardQuestion.setOnClickListener{
             flashcardAnswer.visibility = View.VISIBLE
             flashcardQuestion.visibility = View.INVISIBLE
-
-            /// when click is pops up the text
-            //Toast.makeText(this, "Question button was clicked", Toast.LENGTH_SHORT).show()
             ///snack bar: it's similar to toast
             Snackbar.make(flashcardQuestion, "Question button was clicked", Snackbar.LENGTH_SHORT).show()
         }
@@ -46,18 +44,16 @@ class MainActivity : AppCompatActivity() {
 
                 flashcardQuestion.text = questionString
                 flashcardAnswer.text = answerString
-            }else{
 
+                Log.i("Gideon: MainActivity", "Question: $questionString")
+                Log.i("Gideon: MainActivity", "Answer: $answerString")
+            }else{
+                Log.i("Gideon: MainActivity", "Returned null data from AddCardActivity")
             }
         }
         addQuestionButton.setOnClickListener{
             val intent = Intent(this, AddCardActivity::class.java)
             resultLauncher.launch(intent)
         }
-
-
-
-
-
     }
 }
