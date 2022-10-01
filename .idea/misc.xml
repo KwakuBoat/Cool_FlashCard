@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/#FALL 2022/Introduction to Mobile Development/Cool_FlashCard/app/src/main/res/drawable-v24/icon_add.xml" value="0.1" />
+        <entry key="..\:/#FALL 2022/Introduction to Mobile Development/Cool_FlashCard/app/src/main/res/drawable/eye_visible_icon.xml" value="0.1" />
+        <entry key="..\:/#FALL 2022/Introduction to Mobile Development/Cool_FlashCard/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/#FALL 2022/Introduction to Mobile Development/Cool_FlashCard/app/src/main/res/drawable/icon_add.xml" value="0.1" />
+        <entry key="..\:/#FALL 2022/Introduction to Mobile Development/Cool_FlashCard/app/src/main/res/drawable/icon_cancel.xml" value="0.1" />
+        <entry key="..\:/#FALL 2022/Introduction to Mobile Development/Cool_FlashCard/app/src/main/res/drawable/icon_save.xml" value="0.1" />
+        <entry key="..\:/#FALL 2022/Introduction to Mobile Development/Cool_FlashCard/app/src/main/res/layout/activity_add_card.xml" value="0.23613963039014374" />
+        <entry key="..\:/#FALL 2022/Introduction to Mobile Development/Cool_FlashCard/app/src/main/res/layout/activity_add_card2.xml" value="0.25416666666666665" />
+        <entry key="..\:/#FALL 2022/Introduction to Mobile Development/Cool_FlashCard/app/src/main/res/layout/activity_main.xml" value="0.12335359675785208" />
         <entry key="..\:/#FALL 2022/Introduction to Mobile Development/FlashCard/app/src/main/res/drawable/eye_visible_icon.xml" value="0.1" />
         <entry key="..\:/#FALL 2022/Introduction to Mobile Development/FlashCard/app/src/main/res/drawable/icon_add.xml" value="0.1" />
         <entry key="..\:/#FALL 2022/Introduction to Mobile Development/FlashCard/app/src/main/res/drawable/rounded_border_answer.xml" value="0.1" />
