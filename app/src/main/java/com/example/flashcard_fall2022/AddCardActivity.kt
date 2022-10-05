@@ -25,7 +25,7 @@ class AddCardActivity : AppCompatActivity() {
             val answerString = answerEditText.text.toString()
 
             val data = Intent()
-            data.putExtra("Question_KEY", questionString)
+            data.putExtra("QUESTION_KEY", questionString)
             data.putExtra("ANSWER_KEY",answerString)
 
             Toast.makeText(this, "Save button was clicked", Toast.LENGTH_SHORT).show()
